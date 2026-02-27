@@ -1,0 +1,121 @@
+SENTINEL README
+---------------
+
+The SENTINEL is a computer system that could have been built in the 80s.
+It is built in CMOS technology with HCMOS chips, only the UVEPROM is NMOS.
+Only technologies that were available in the 80s are used.
+Although CMOS is available since the 60s it overtook NMOS in the late 80s.
+Zilog introduced the CMOS Z80 in 1985 but Japanese CMOS clones from Toshiba
+and Sharp were available earlier.
+LCD technology was born in the late 60s and early 70s but the breakthrough
+occured in the 80s.
+
+Chips used in this project:
+- Z80 CPU
+- 64 or 128 KiB SRAM
+- 4 KiB UVEPROM or EEPROM
+- HD44780 with LCD display 16x1
+- 74C923 key encoder
+- 74HC04 hex inverter
+- 74HC32 quad 2-input OR gates
+- 74HC138 demultiplexer
+- 74HC244 octal buffer
+- 74HC273 octal latch
+
+SENTINEL.R0 project files:
+|> LICENSE (SENTINEL license)
+|> NEWS (SENTINEL project news)
+|> NEXT (outlook to R1)
+|> README (this file)
+|> README_Asteroid_Belt (dodge asteroids game)
+|> README_Black_Jack (two-player game)
+|> README_CLI (command line interface)
+|> README_Haunted_House (text adventure)
+|> README_Hex_Invaders (invaders game)
+|> README_Hex_Man (hexadecimal hangman game)
+|> README_reZet80 (about my projects)
+|- doc (technical specifications)
+|-> char_encoding
+|-> specs_config
+|-> specs_CPU
+|-> specs_inverter
+|-> specs_IO
+|-> specs_keyboard
+|-> specs_LCD
+|-> specs_memory
+|-> specs_oscillator
+|-> specs_status
+|-> specs_text_adventure_engine
+|- pix (logo and pictures)
+|-> ab.jpg (Asteroid Belt title screen)
+|-> ab_game1.jpg (Asteroid Belt in-game screenshot)
+|-> ab_game2.jpg (Asteroid Belt in-game screenshot)
+|-> bj.jpg (Black Jack title screen)
+|-> bj_1up.jpg (Black Jack in-game screenshot)
+|-> bj_2up.jpg (Black Jack in-game screenshot)
+|-> bj_nobody.jpg (Black Jack in-game screenshot)
+|-> bj_win.jpg (Black Jack in-game screenshot)
+|-> hh.jpg (Haunted House title screen)
+|-> hh_game1.jpg (Haunted House in-game screenshot)
+|-> hh_game2.jpg (Haunted House in-game screenshot)
+|-> hh_game3.jpg (Haunted House in-game screenshot)
+|-> hh_game4.jpg (Haunted House in-game screenshot)
+|-> hi.jpg (Hex Invaders title screen)
+|-> hi_game1.jpg (Hex Invaders in-game screenshot)
+|-> hi_game2.jpg (Hex Invaders in-game screenshot)
+|-> hi_game3.jpg (Hex Invaders in-game screenshot)
+|-> hi_over.jpg (Hex Invaders in-game screenshot)
+|-> hm.jpg (Hex Man title screen)
+|-> hm_game.jpg (Hex Man in-game screenshot)
+|-> hm_lose.jpg (Hex Man in-game screenshot)
+|-> hm_win1.jpg (Hex Man in-game screenshot)
+|-> hm_win2.jpg (Hex Man in-game screenshot)
+|-> reZet80.png (my projects)
+|-> sentinel.png (logo, Stargaze font)
+|-> sentinel_R0.jpg (welcome screen)
+|-- Z80test (Z80 CPU pictures)
+|--> 0047.jpg (Zilog Z84C0020PEC)
+|--> 546da.jpg (Sharp LH0080A)
+|--> 0723.jpg (Zilog Z84C0020PEC)
+|--> 0940.jpg (Sharp LH0080A)
+|--> 1035.jpg (Zilog Z84C0020PEC)
+|--> 7725.jpg (Zilog Z80A)
+|--> 7807.jpg (Mostek MK3880)
+|--> 8029.jpg (Mostek MK3880)
+|--> 8214.jpg (SGS Z8400AD1)
+|--> 8532.jpg (Toshiba TMPZ84C00P)
+|--> 88207.jpg (SGS Z8400B1)
+|--> x6.jpg (MME VB880D)
+|- rom (ROM images)
+|-> sentinel.ROM
+|-> test_Z80.ROM
+|-> test_Z80_2KiB.ROM
+|- sch (schematics)
+|-> schem_config.png
+|-> schem_CPU.png
+|-> schem_inverter.png
+|-> schem_IO.png
+|-> schem_key_encoder.png
+|-> schem_keyboard.png
+|-> schem_LCD.png
+|-> schem_memory.png
+|-> schem_oscillator.png
+|-> schem_reset.png
+|-> schem_status.png
+|- src (source code)
+|-> ab.asm
+|-> ascii.asm
+|-> bj.asm
+|-> boot.asm
+|-> cli.asm
+|-> hh.asm
+|-> hi.asm
+|-> hm.asm
+|-> init.asm
+|-> sentinel.asm
+|-> test_Z80.asm
+
+-------------------------
+last modified: 2026-02-20
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
