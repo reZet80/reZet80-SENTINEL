@@ -1,0 +1,28 @@
+SENTINEL I/O specs
+------------------
+
+The first 128 I/O ports (00-7F) are used.
+They are divided into 8 regions of 16 ports each:
+00-0F, 10-1F, 20-2F, 30-3F, 40-4F, 50-5F, 60-6F and 70-7F.
+The remaining 128 I/O ports (80-FF) are free to use.
+All I/O port addresses are given in hexadecimal notation.
+
+The 74HC138 demultiplexer provides the following low-active signals:
+- /IOSEL_0X: configuration register
+- /IOSEL_1X: status register
+- /IOSEL_2X: (reserved for future use)
+- /IOSEL_3X: (reserved for future use)
+- /IOSEL_4X: (reserved for future use)
+- /IOSEL_5X: (reserved for future use)
+- /IOSEL_6X: keyboard
+- /IOSEL_7X: LCD display
+
+Bill of materials:
+- 74HC138 demultiplexer
+- 1x DIP-16 socket (optional)
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2026-02-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

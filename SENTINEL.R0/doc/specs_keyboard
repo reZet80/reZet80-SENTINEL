@@ -1,0 +1,40 @@
+SENTINEL keyboard specs
+-----------------------
+
+The SENTINEL keyboard provides alphanumericals '0'-'9' and 'A'-'Z,
+twenty-eight punctuation symbols and seven special keys:
+ENTER, BACK, ESC, SHIFT, ALT1, ALT2 and ALT3.
+
+The 74C923 chip supports key debouncing and interrupts.
+It triggers /NMI once a key is pressed.
+The NMI is used because it has the fastest interrupt response time.
+
+The keyboard card uses port address 60 (I/O signal /IOSEL_6X).
+The address is given in hexadecimal notation.
+ALT1, ALT2 and ALT3 key presses are sensed via the status register.
+
+The keyboard bus:
+KEYB01: D4
+KEYB02: D3
+KEYB03: D2
+KEYB04: D1
+KEYB05: D0
+KEYB06: /IOSEL_6X
+KEYB07: NMI (DA)
+KEYB08: ALT1
+KEYB09: ALT2
+KEYB10: ALT3
+KEYB11: GND
+KEYB12: +5V
+
+Bill of materials:
+- 23x key switch
+-  1x 74C923 key encoder
+-  1x DIP-20 socket (optional)
+-  2x capacitor 100 nF
+-  1x capacitor 1 uF
+
+-------------------------
+last modified: 2026-02-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

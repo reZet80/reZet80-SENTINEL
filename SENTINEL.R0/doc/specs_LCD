@@ -1,0 +1,48 @@
+SENTINEL LCD specs
+------------------
+
+The 16x1 display card dispalys 16 characters in one line.
+
+Hitachi's HD44780 dot matrix LCD controller is both CMOS and TTL compatible.
+
+The display card uses port address 70 (I/O signal /IOSEL_7X).
+The address is given in hexadecimal notation.
+
+LCD modules provide a parallel interface bus as follows:
+LCDB01: GND
+LCDB02: VCC
+LCDB03: V0
+LCDB04: RS (A0)
+LCDB05: R/W (/RD inverted)
+LCDB06: E
+LCDB07: D0
+LCDB08: D1
+LCDB09: D2
+LCDB10: D3
+LCDB11: D4
+LCDB12: D5
+LCDB13: D6
+LCDB14: D7
+LCDB15: VCC backlight
+LCDB16: GND backlight
+
+The LCD samples data when the E signal changes from high to low.
+Unfortunately the Z80 signals /IORQ and /WR go from high to low at the same
+time. So the /WR signal is not asserted any longer for data to be written to
+the LCD. The solution is to use the inverted /RD instead of the /WR signal.
+The address and data lines are kept asserted after /IORQ and /WR go low.
+
+A variable resistor connected to V0 is used to set the display contrast.
+Depending on your LCD specs an extra resistor is needed in series with VCC
+backlight.
+
+Bill of materials:
+- 1x 16x1 LCD display
+- 1x resistor X (choose according to your LCD specs)
+- 1x variable resistor 4k7
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2026-02-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

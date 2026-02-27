@@ -1,0 +1,21 @@
+SENTINEL status register specs
+------------------------------
+
+The status register is an 8-bit buffer.
+It uses port address 10 (I/O signal /IOSEL_1X).
+The address is given in hexadecimal notation.
+
+Only 3 bits are used for now:
+bit 5: ALT1 key
+bit 6: ALT2 key
+bit 7: ALT3 key
+
+Bill of materials:
+- 1x 74HC244 octal buffer
+- 1x DIP-20 socket (optional)
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2026-02-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

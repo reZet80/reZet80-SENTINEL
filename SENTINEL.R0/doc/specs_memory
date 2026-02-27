@@ -1,0 +1,22 @@
+SENTINEL memory specs
+---------------------
+
+The SENTINEL is equipped with 64 or 128 KiB of RAM and 4 KiB of ROM.
+Only the low 64 KiB of an 128 KiB chip are used in R0.
+
+Please note that only SRAM chips that provide both a /CS1 and a CS2 pin can be
+used. Chips without a CS2 pin cannot be used with this setup.
+
+Bill of materials:
+- 64 KiB or 128 KiB SRAM
+- 4 KiB UVEPROM or EEPROM (2732 or compatible)
+- 74HC32 quad 2-input OR gates
+- 1x DIP-14 socket (optional)
+- 1x DIP-24 socket (optional)
+- 1x DIP-32 socket (optional)
+- 3x capacitor 100 nF
+
+-------------------------
+last modified: 2026-02-13
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

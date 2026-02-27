@@ -1,0 +1,24 @@
+Text Adventure Engine specs
+---------------------------
+
+2026-03: R0S (release 0 for the SENTINEL R0):
+- runs from RAM
+- uses CLI keyboard handling
+- minor bug fixes and code optimizations
+
+2023-10: R0P (release 0 for the PIONEER R1):
+- tiny text adventure engine
+- runs on a 16-character display
+- the descriptive text is short and the dictionary is limited
+- simple parser understands one and two word commands made of verb and noun
+- the focus lies on solving puzzles, the atmosphere is secondary
+- no time limit and no score
+- 5-bit packed chars:
+  26 capital letters, 4 punctuation symbols and 2 special chars CR and EOS
+- only first letter of verb and noun are used so unique, unambiguous verb/noun
+  combinations are required for each location
+
+-------------------------
+last modified: 2026-02-13
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

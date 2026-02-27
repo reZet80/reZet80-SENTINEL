@@ -1,0 +1,19 @@
+SENTINEL configuration register specs
+-------------------------------------
+
+The configuration register is an 8-bit latch.
+It uses port address 00 (I/O signal /IOSEL_0X).
+The address is given in hexadecimal notation.
+
+Only 1 bit is used for now:
+bit 7 (RXM): use ROM and RAM (0), use only RAM (1)
+
+Bill of materials:
+- 74HC273 octal latch
+- 1x DIP-20 socket (optional)
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2026-02-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
