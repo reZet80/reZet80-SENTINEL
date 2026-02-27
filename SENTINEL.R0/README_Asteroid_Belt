@@ -1,0 +1,30 @@
+SENTINEL Asteroid Belt README
+-----------------------------
+
+Welcome to the game Asteroid Belt!
+Asteroid Belt is inspired by a MIK CA80 game.
+To start the game enter "AB" at the prompt and press ENTER.
+The display reads "ASTEROID BELT". Press any key to begin.
+
+You are a space pilot.
+You maneuver your ship through an asteroid belt.
+You start at the leftmost display position as the "-" character.
+Asteroids and asteroid belts fly towards you from the right.
+The game is easy to play:
+USE the ENTER (fly down) and BACK (fly up) key to dodge all asteroids.
+Asteroids always keep getting faster.
+
+Your score is displayed at the rightmost display position.
+You are awarded 1 point for dodging an asteroid or asteroid belt.
+The score is given in hexadecimal notation.
+
+If an asteroid hits you, the game ends.
+The asteroid that hit you, your final score and "GAME OVER" is displayed.
+Press ESC to quit the game or any other key to restart.
+
+Enjoy!
+
+-------------------------
+last modified: 2026-02-08
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

@@ -1,0 +1,32 @@
+SENTINEL Black Jack README
+--------------------------
+
+Welcome to the two-player game Black Jack!
+To start the game enter "BJ" at the prompt and press ENTER.
+The display reads "BLACK JACK". Press any key to begin.
+
+The game screen looks like this: "XUP TT CCCCCC HH".
+"XUP" is either "1UP" for player 1 or "2UP" for player 2.
+"TT" is the hand total of the current player.
+"C" are the cards drawn by the player:
+"2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A".
+"T" stands for "10".
+"HH" is the hand total of player 1, it will only be displayed for player 2.
+If you bust your hand total will be "00".
+Press ENTER for the next card or ESC to end your turn.
+
+After both players have finished their turn the game results are displayed.
+So it's either "NOBODY WINS" or "XX > YY 1UP WINS" or "YY > XX 2UP WINS".
+The hand total of both winner and second placed player are displayed,
+"XX" is the hand total of player 1 and "YY" the hand total of player 2.
+Press ESC to quit the game or any other key to restart.
+
+Playing against the computer is not supported yet but you can play against
+yourself :-)
+I presume you know the Black Jack rules :-)
+Enjoy!
+
+-------------------------
+last modified: 2026-02-20
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

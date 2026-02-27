@@ -1,0 +1,17 @@
+SENTINEL R0 NEWS
+----------------
+
+Introduced:
+- command line interface (CLI)
+- Asteroid Belt game
+- Hex Invaders game
+- two-player Black Jack game
+- Hex Man game
+- enhanced Haunted House text adventure from PIONEER R1
+- LCD display 16x1 used in DEV R0
+- reworked keyboard based on 74C923 used in PIONEER R0
+
+-------------------------
+last modified: 2025-11-30
+(c) copyright 2016-2025 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

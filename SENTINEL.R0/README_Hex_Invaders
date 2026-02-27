@@ -1,0 +1,32 @@
+SENTINEL Hex Invaders README
+----------------------------
+
+Welcome to the game Hex Invaders!
+Hex Invaders is inspired by Casio's MG-880 Calculator game from the 80s.
+To start the game enter "HI" at the prompt and press ENTER.
+The display reads "HEX INVADERS". Press any key to begin.
+
+The game screen looks like this: "LG#IIIIIIII SCOR".
+'#' is your base.
+'L' shows your remaining lives. You start with three lives.
+'G' is your gun (number).
+'I' are the enemy invaders. They advance towards your base from the right.
+Invaders always keep getting faster.
+You shoot invaders by pressing the ENTER key.
+You can only destroy the invaders that match your gun number.
+You advance your gun number from '0' to 'F' and back to '0' by pressing the
+BACK key.
+"SCOR" is the score of all invaders you have hit.
+Invaders, your gun number and the score are given in hexadecimal notation,
+hence the name of the game.
+If an invader hits your base you lose one life.
+The game ends after you have lost all three lives.
+Your final score and "GAME OVER" is displayed.
+Press ESC to quit the game or any other key to restart.
+
+Enjoy!
+
+-------------------------
+last modified: 2026-02-13
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

@@ -1,0 +1,41 @@
+SENTINEL CLI README
+-------------------
+
+CLI stands for Command Line Interface.
+It is the software that enables you to enter and run commands.
+
+After reset you will see the welcome string showing "SENTINEL R0".
+Press any key to get to the prompt: '>'.
+Alphanumericals and punctuation symbols that you enter are displayed from
+left to right but only fifteen can be entered and are visible.
+All following entries are ignored.
+So you cannot type beyond the end of the line.
+The BACK key moves you one digit to the left.
+But you cannot go back past the prompt.
+Press ENTER when you have finished entering your command.
+The ESC key takes you back to an empty prompt.
+
+The ALT keys serve the purpose of switching between the blocks of available
+characters and punctuation symbols as only 16 keys are available at a time.
+The default keys:
+'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'
+By pressing and holding ALT1 you can access the following characters:
+'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V'
+With ALT2 the following characters and punctuation symbols are available:
+'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', ''', '(', ')', '*', '+'
+By pressing and holding ALT3 you can access the following punctuation symbols:
+',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\', ']', '_', '|'
+
+The SHIFT key is not used in R0.
+
+The following games are available:
+- "AB": Asteroid Belt
+- "BJ": Black Jack
+- "HH": Haunted House
+- "HI": Hex Invaders
+- "HM": Hex Man
+
+-------------------------
+last modified: 2026-02-01
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

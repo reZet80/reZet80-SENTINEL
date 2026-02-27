@@ -1,0 +1,46 @@
+reZet80 README
+--------------
+
+Welcome to reZet80!
+reZet80 stands for "Reset me back to the 80s with the Z80".
+reZet80 features a set of retro projects to develop computing and
+arcade systems that resemble the Z80 machines of the 70s and 80s.
+All systems are built from scratch and not copies of any other Z80 system.
+The development process includes low-level hardware design and software
+programming in Assembler.
+I will develop and build every single pcb trace and every single bit of
+machine code by myself.
+DIYIB: Doing it yourself is believing!
+WYDYIWYG: What you do yourself is what you get!
+
+My active stand-alone computer system projects that use the powerful Z80:
+
+JUNIOR:
+- Minimalistic SBC for 1977
+- Equipped with 256 bytes of RAM and 2 or 4 KiB of ROM
+- 7-segment display
+
+SCOUT:
+- Expandable SBC for 1977
+- Up to 4 KiB of RAM and 12 KiB of ROM
+- TIL311 hexadecimal display
+
+PIONEER:
+- Modular system for the late 70s
+- Up to 28 KiB of RAM and 14 KiB of ROM
+- Extended 14-segment 16-char display
+
+HYBRID:
+- Dual-CPU system for 1979
+- Z80 alongside i8088
+- VGA-compatible display
+
+SENTINEL:
+- SBC for the late 80s
+- 128 KiB of RAM
+- Advanced CMOS and LCD technologies
+
+-------------------------
+last modified: 2026-01-06
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

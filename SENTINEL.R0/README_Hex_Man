@@ -1,0 +1,28 @@
+SENTINEL Hex Man README
+-----------------------
+
+Welcome to the game Hexadecimal Hangman!
+To start the game enter "HM" at the prompt and press ENTER.
+The display reads "HEX MAN". Press any key to begin.
+
+In Hex Man the player guesses hexadecimal numbers ('0'-'F'), not words.
+The computer thinks up a word of random hexadecimal numbers.
+The word length is also chosen randomly from one to eight numbers.
+"_" placeholders are displayed for the word to guess.
+Six incorrect guesses "#" are allowed (for head, body and limbs in hangman).
+A "_" or a "#" will be replaced with your guessed number for a correct or
+incorrect guess, respectively.
+When the game ends it either displays "WINNER" or "LOSER".
+Press ESC to quit the game or any other key to play again.
+
+Strategies like using the most commonly occurring letters in the player's
+language are no longer of any help.
+It's up to your lucky guesses!
+And this game removes the controversial hanging of people!
+
+Enjoy!
+
+-------------------------
+last modified: 2026-02-08
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

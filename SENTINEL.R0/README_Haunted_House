@@ -1,0 +1,60 @@
+SENTINEL Haunted House README
+-----------------------------
+
+Welcome to a thrill-packed game of mystery and adventure!
+Haunted House is a simple interactive text adventure horror game for the
+reZet80 SENTINEL.
+It was first published in 1979 for the TRS-80 on cassette tape.
+I have completely rewritten the game in Assembler and have implemented some
+simplifications to save ROM space.
+And I have also made changes to adapt to the 16-character display.
+
+Objectives of the game:
+- Solve the mysteries of the house
+- Survive the hidden dangers
+- Find and explore secret rooms
+- Search for the only escape to get out of the house alive
+
+To start the game enter "HH" at the prompt and press ENTER.
+The display reads "HAUNTED HOUSE". Press any key to begin.
+
+The game is easy to play: Use "N", "S", "E" and "W" to walk around.
+Type "I" to view your inventory.
+To find out where you are type "L" (look).
+Otherwise, issue simple commands (verb and noun).
+So to open a door enter "OPEN DOOR" or just "O D".
+The descriptive text is short and the dictionary is very limited.
+The exits are not described so if moving in any direction brings you back
+to the same location that direction is not available.
+Items are automatically dropped after you use them.
+If you die, the game ends.
+There is no time limit and no score.
+And don't bother about treasures, there are none to find.
+Please feel encouraged to draw a map of the house for yourself.
+Now travel back to the late 70s!
+Press ESC at any time to quit the game.
+
+Because only 16 characters can be displayed at the same time sentences have
+to be split on several lines.
+Keep pressing any key until the sentence is finished and you see the prompt.
+
+From the original game:
+Haunted House
+Generations have passed since the McDaniel family mysteriously disappeared.
+It is said that a stranger came to visit on that cold, autumn day many years
+ago, but no one knows for sure.
+Their house has been vacant for decades now. Its two story image is forlorn
+and looming, visible only from the narrow, winding road that has been
+distorted by vegetation from the surrounding forest. The stone wall that
+encompasses the house is discolored and broken from years of neglect, its
+iron gate rusty and worn by angry seasons. The windows are boarded - the
+house is quiet and contented, not accustomed to visitors. The wind is
+restless today, blowing fallen leaves in all directions. As you walk towards
+the entrance of the house, the wind grows distant and weak. Suddenly, the
+calm and silence is broken by sounds from within the house!
+Do you have the courage to enter?
+
+-------------------------
+last modified: 2025-01-18
+(c) copyright 2016-2025 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
