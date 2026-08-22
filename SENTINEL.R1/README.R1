@@ -1,1 +1,79 @@
+SENTINEL README
+---------------
 
+The SENTINEL is a computer system that could have been built in the 80s.
+It is built in CMOS technology with HCMOS chips, only the UVEPROM is NMOS.
+Only technologies that were available in the 80s are used.
+Although CMOS is available since the 60s it overtook NMOS in the late 80s.
+Zilog introduced the CMOS Z80 in 1985 but Japanese CMOS clones from Toshiba
+and Sharp were available earlier.
+LCD technology was born in the late 60s and early 70s but the breakthrough
+occured in the 80s.
+
+Chips used in this project:
+- Z80 CPU
+- 64 or 128 KiB SRAM
+- 4 KiB UVEPROM or EEPROM
+- HD44780 with LCD displays 16x1, 40x1, 16x2
+- 74C923 key encoder
+- 74HC04 hex inverter
+- 74HC08 quad 2-input AND gates
+- 74HC32 quad 2-input OR gates
+- 74HC138 demultiplexer
+- 74HC244 octal buffer
+- 74HC273 octal latch
+
+SENTINEL.R1 project files:
+|> LICENSE (SENTINEL license)
+|> CHANGES (changes in SENTINEL R1)
+|> README (this file)
+|- doc (READMEs)
+|-> README_Asteroid_Belt (dodge asteroids game)
+|-> README_Black_Jack (two-player game)
+|-> README_Camel_Race (racing game)
+|-> README_CLI (command line interface)
+|-> README_Dino_Chase (jumping and ducking game)
+|-> README_Donkey_Race (driving game)
+|-> README_Haunted_House (text adventure)
+|-> README_Hex_Invaders (invaders game)
+|-> README_Hex_Man (hexadecimal hangman game)
+|-> README_Obstacle_Runner (jumping game)
+|-> README_reZet80 (about my projects)
+|-> README_The_Lighthouse (text adventure)
+|- pix (logo, pictures and screenshots)
+|-> ab.jpg ab1.jpg ab2.jpg (Asteroid Belt screenshots)
+|-> alt_keys.jpg (prototype of ALT keys)
+|-> bj.jpg bj1.jpg bj2.jpg bj3.jpg bj4.jpg (Black Jack screenshots)
+|-> cr.jpg cr1.jpg (Camel Race screenshots)
+|-> dc.jpg dc1.jpg dc2.jpg dc3.jpg dc4.jpg dc5.jpg (Dino Chase screenshots)
+|-> dr.jpg dr1.jpg (Donkey Race screenshots)
+|-> hh.jpg hh1.jpg hh2.jpg hh3.jpg hh4.jpg (Haunted House screenshots)
+|-> hh_40x1.jpg hh1_40x1.jpg hh2_40x1.jpg hh3_40x1.jpg hh4_40x1.jpg
+|-> hi.jpg hi1.jpg hi2.jpg hi3.jpg hi4.jpg (Hex Invaders screenshots)
+|-> hm.jpg hm1.jpg hm2.jpg hm3.jpg hm4.jpg (Hex Man screenshots)
+|-> keyboard.jpg (prototype of keyboard)
+|-> lh.jpg lh1.jpg lh2.jpg lh3.jpg lh4.jpg (The Lighthouse screenshots)
+|-> or.jpg or1.jpg or2.jpg or3.jpg (Obstacle Runner screenshots)
+|-> reZet80.png (my projects)
+|-> sentinel.png (logo, Stargaze font)
+|-> sentinel_R1.jpg sentinel_R1_40x1.jpg (welcome screen for R1)
+|- rom (ROM images)
+|-> ROM1 (Haunted House and Release Version command, 40x1)
+|-> ROM2 (The Lighthouse and Release Version command, 40x1)
+|-> ROM3 (the remaining games and Release Version command, 16x2)
+|- sch (schematics)
+|-> schem_config.png schem_CPU.png schem_inverter.png schem_IO.png
+|-> schem_key_encoder.png schem_keyboard.png schem_LCD.png
+|-> schem_memory.png schem_oscillator.png schem_reset.png schem_status.png
+|- src (source code)
+|-> ab.asm ascii.asm bj.asm boot.asm cli.asm cr.asm dc.asm
+|-> dr.asm hh.asm hi.asm hm.asm init.asm lcd.asm lh.asm
+|-> or.asm reZet80.asm rv.asm sentinel.asm sys.asm
+|- tdx (technical specifications)
+|-> char_encoding specs_config specs_CPU specs_inverter specs_IO
+|-> specs_keyboard specs_LCD specs_memory specs_oscillator specs_status
+
+-------------------------
+last modified: 2026-08-06
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
