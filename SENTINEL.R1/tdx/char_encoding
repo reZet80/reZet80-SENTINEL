@@ -1,0 +1,119 @@
+SENTINEL char encoding
+----------------------
+
+00: '0'
+01: '1'
+02: '2'
+03: '3'
+04: '4'
+05: '5'
+06: '6'
+07: '7'
+08: '8'
+09: '9'
+
+0A: 'A'
+0B: 'B'
+0C: 'C'
+0D: 'D'
+0E: 'E'
+0F: 'F'
+10: 'G'
+11: 'H'
+12: 'I'
+13: 'J'
+14: 'K'
+15: 'L'
+16: 'M'
+17: 'N'
+18: 'O'
+19: 'P'
+1A: 'Q'
+1B: 'R'
+1C: 'S'
+1D: 'T'
+1E: 'U'
+1F: 'V'
+20: 'W'
+21: 'X'
+22: 'Y'
+23: 'Z'
+
+24: ' '
+25: '!'
+26: '"'
+27: '#'
+28: '$'
+29: '%'
+2A: '&'
+2B: '''
+2C: '('
+2D: ')'
+2E: '*'
+2F: '+'
+30: ','
+31: '-'
+32: '.'
+33: '/'
+34: ':'
+35: ';'
+36: '<'
+37: '='
+38: '>'
+39: '?'
+3A: '@'
+3B: '['
+3C: '\'
+3D: ']'
+3E: '_'
+3F: '|'
+
+40: 'a'
+41: 'b'
+42: 'c'
+43: 'd'
+44: 'e'
+45: 'f'
+46: 'g'
+47: 'h'
+48: 'i'
+49: 'j'
+4A: 'k'
+4B: 'l'
+4C: 'm'
+4D: 'n'
+4E: 'o'
+4F: 'p'
+50: 'q'
+51: 'r'
+52: 's'
+53: 't'
+54: 'u'
+55: 'v'
+56: 'w'
+57: 'x'
+58: 'y'
+59: 'z'
+
+5a: custom character
+5b: custom character
+5c: custom character
+5d: custom character
+5e: custom character
+5f: custom character
+60: custom character
+61: custom character
+
+80: ENTER
+81: BACK
+82: ESC
+83: SHIFT
+
+FF: EOS (string terminator)
+
+All codes are given in hexadecimal notation.
+
+-------------------------
+last modified: 2026-06-23
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

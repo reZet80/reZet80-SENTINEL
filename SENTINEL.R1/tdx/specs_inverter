@@ -1,0 +1,18 @@
+SENTINEL inverter specs
+-----------------------
+
+The SENTINEL inverter is a 74HC04 hex inverter.
+
+Only 2 inverters are used for now to convert:
+- high-active data available signal from 74C923 key encoder to low-active /NMI
+- low-active /IOSEL_7X signal to high-active E signal for Hitachi HD44780
+
+Bill of materials:
+- 74HC04 hex inverter
+- 1x DIP-14 socket (optional)
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2025-01-18
+(c) copyright 2016-2025 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

@@ -1,0 +1,37 @@
+SENTINEL memory specs
+---------------------
+
+The SENTINEL is equipped with 128 KiB of RAM and 4 KiB of ROM.
+The 64 KiB address space of the Z80 is mapped as low RAM (0000-7FFF, A15 low)
+and high RAM (8000-FFFF, A15 high).
+
+The 128 KiB RAM are divided into 4 banks of 32 KiB each:
+- bank 0: 00000-07FFF
+- bank 1: 08000-0FFFF
+- bank 2: 10000-17FFF
+- bank 3: 18000-1FFFF
+
+Bank 0 is always fixed as low RAM.
+Banks 1, 2 and 3 can be selected as high RAM and ROM can be switched out
+(see configuration register specs).
+Memory banks 2 and 3 are not used in R1.
+
+Please note that only SRAM chips that provide both a /CS1 and a CS2 pin can be
+used. Chips without a CS2 pin cannot be used with this setup.
+
+All addresses are given in hexadecimal notation.
+
+Bill of materials:
+- 128 KiB SRAM
+- 4 KiB UVEPROM or EEPROM (2732 or compatible)
+- 74HC08 quad 2-input AND gates
+- 74HC32 quad 2-input OR gates
+- 2x DIP-14 socket (optional)
+- 1x DIP-24 socket (optional)
+- 1x DIP-32 socket (optional)
+- 3x capacitor 100 nF
+
+-------------------------
+last modified: 2026-03-07
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

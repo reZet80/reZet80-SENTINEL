@@ -1,0 +1,27 @@
+SENTINEL configuration register specs
+-------------------------------------
+
+The configuration register is an 8-bit latch.
+It uses port address 00 (I/O signal /IOSEL_0X).
+
+Only 3 bit are used for now:
+bit 0 (A15SEL): used to map RAM banks as high RAM (see below)
+bit 1 (A16SEL): used to map RAM banks as high RAM (see below)
+bit 7 (RAMSEL): use ROM and RAM (= 0), use only RAM (= 1)
+So to switch ROM out set RAMSEL to 1.
+
+- bank 1: A15SEL = 1, A16SEL = 0 (physical address 08000-0FFFF)
+- bank 2: A15SEL = 0, A16SEL = 1 (physical address 10000-17FFF)
+- bank 3: A15SEL = 1, A16SEL = 1 (physical address 18000-1FFFF)
+
+ALl addresses are given in hexadecimal notation.
+
+Bill of materials:
+- 74HC273 octal latch
+- 1x DIP-20 socket (optional)
+- 1x capacitor 100 nF
+
+-------------------------
+last modified: 2025-01-18
+(c) copyright 2016-2025 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

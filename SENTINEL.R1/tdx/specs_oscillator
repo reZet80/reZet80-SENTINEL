@@ -1,0 +1,14 @@
+SENTINEL oscillator specs
+-------------------------
+
+The oscillator provides the clock signal for the SENTINEL system.
+A 2 MHz clock speed is used in R0.
+
+Bill of materials:
+- 1x oscillator (DIP-8 or DIP-14)
+- 1x DIP-8 or DIP-14 socket (optional)
+
+-------------------------
+last modified: 2026-02-13
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
