@@ -1,0 +1,24 @@
+SENTINEL Dino Chase README
+--------------------------
+
+Welcome to the game Dino Chase!
+Dino Chase is a further development of the game Obstacle Runner.
+To start the game enter "DC" at the prompt and press ENTER.
+The display reads "DINO CHASE". Press any key to begin.
+
+65 million years ago.
+Asteroids are falling to Earth, chaos breaks out.
+Dinosaur baby has lost its mother and is rushing around looking for her.
+As dino baby you start at the leftmost display position.
+Press the BACK key to jump over the boulders.
+Asteroid fragments are coming towards you from the right.
+Press the ENTER key to duck and dodge the asteroids.
+
+If you hit a boulder or an asteroid hits you, "OUCH!" is displayed and
+the game ends.
+Press ESC to quit the game or any other key to restart.
+
+-------------------------
+last modified: 2026-03-29
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

@@ -1,0 +1,23 @@
+SENTINEL Camel Race README
+--------------------------
+
+Welcome to the two-player game Camel Race!
+Camel Race is a simple racing game for the reZet80 SENTINEL.
+To start the game enter "CR" at the prompt and press ENTER.
+The display reads "CAMEL RACE". Press any key to begin.
+
+Your camels start at the leftmost display position, player 1 ("1UP") at the top
+and player 2 ("2UP") at the bottom.
+After the countdown ("3", "2", "1", "0") the race begins.
+Press the "0" and "1" (player 1) or "ENTER" and "BACK" (player 2) keys
+alternately to make your camel run.
+One key must be completely pressed and released before pressing the other key.
+The camel that reaches the right side of the display first wins.
+So it's either "1UP WINS" or "2UP WINS".
+
+Enjoy!
+
+-------------------------
+last modified: 2026-03-15
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

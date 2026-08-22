@@ -1,0 +1,43 @@
+SENTINEL The Lighthouse README
+------------------------------
+
+Welcome to a simple text adventure for the reZet80 SENTINEL!
+It is based on "The Lighthouse of Doom" written by Steve Kemp in 2021 for
+CP/M and the ZX Spectrum.
+I have completely rewritten the game using my text adventure engine.
+And I have made many simplifications, changes and additions and also adapted
+it to the 16- and 40-character displays.
+To start the game enter "LH" at the prompt and press ENTER.
+The display reads "The Lighthouse". Press any key to begin.
+
+The game is easy to play: Use "UP" or "U" and "DOWN" or "D" to get around.
+Type "I" to view your inventory.
+To find out where you are type "L" (look).
+Otherwise, issue simple commands (verb and noun).
+So for example enter "TAKE TORCH" or just "T T".
+The descriptive text is short and the dictionary is very limited.
+Most items are automatically dropped after you use them.
+There are four ways to die, but only one way to win.
+If you die, the game ends.
+There is no time limit and no score.
+Please feel encouraged to draw a map of the lighthouse for yourself.
+
+Because only 16 characters can be displayed at the same time sentences have
+to be split on several lines.
+Keep pressing any key until the sentence is finished and you see the prompt.
+Playing the adventure on a 40-character display is more fun.
+
+From the original game:
+GAME PLOT
+You're inside a lighthouse (trapped? doesn't really matter I guess).
+You see a boat on the horizon, heading your way.
+But "oh no!", the lighthouse is dark.
+The boat will surely crash if you don't turn on the main light.
+The game is over, when you either fix the light, or find another solution.
+If you do not achieve victory within a turn-limit the boat runs aground, and
+death will consume you all. (It is a _very_ big boat!)
+
+-------------------------
+last modified: 2026-07-11
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

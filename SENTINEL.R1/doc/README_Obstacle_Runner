@@ -1,0 +1,27 @@
+SENTINEL Obstacle Runner README
+-------------------------------
+
+Welcome to the game Obstacle Runner!
+It is based on a game available for the Arduino and the TEC-1.
+I don't know which one is the original.
+The TEC-1 version was written by Brian Chiha in 2020.
+I have completely rewritten the game.
+To start the game enter "OR" at the prompt and press ENTER.
+The display reads "OBSTACLE RUNNER". Press any key to begin.
+
+You are a runner.
+Obstacles are coming towards you from the right.
+Press the ENTER key to jump over the obstacles.
+
+Your score is displayed at the rightmost top display position.
+You are awarded 1 point for every obstacle.
+The score is given in hexadecimal notation.
+
+If an obstacle hits you, the game ends.
+"OUCH!" and your final score is displayed.
+Press ESC to quit the game or any other key to restart.
+
+-------------------------
+last modified: 2026-03-26
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)

@@ -1,0 +1,27 @@
+SENTINEL Donkey Race README
+---------------------------
+
+Welcome to the Donkey Race game!
+Donkey Race is a simple driving game for the reZet80 SENTINEL.
+The game "Donkey" was first written in BASIC in 1981 for the IBM PC DOS by
+Bill Gates and Neil Konzen.
+I have completely rewritten the game in Assembler.
+To start the game enter "DR" at the prompt and press ENTER.
+The display reads "DONKEY RACE". Press any key to begin.
+
+You are driving on a two-lane road from left to right.
+A donkey appears randomly on one side of the road.
+Change lanes in good time to avoid the donkey (press the ENTER key to do so).
+As the car avoids the donkey, it moves to the right.
+The donkey is getting faster and faster.
+If you manage to reach the right-hand side of the screen you can continue your
+race on the left-hand side.
+If your car hits the donkey "BOOM!" will be displayed and the game is over.
+Press ESC to quit the game or any other key to restart.
+
+Enjoy!
+
+-------------------------
+last modified: 2026-03-14
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
