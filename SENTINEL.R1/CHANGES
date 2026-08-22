@@ -1,0 +1,23 @@
+SENTINEL R1 Changes
+-------------------
+
+New in SENTINEL R1:
+- 128 KiB divided into 4 memory banks
+- additional LCD displays 40x1 and 16x2
+- lower-case letters
+- reZet80 custom character splash screen
+- RV command (show release version)
+- Dino Chase game
+- Camel Race game
+- Donkey Race game
+- Obstacle Runner game
+- enhanced Black Jack game
+- enhanced Hex Invaders game
+- enhanced Asteroid Belt game
+- The Lighthouse text adventure
+- enhanced Haunted House text adventure
+
+-------------------------
+last modified: 2026-07-26
+(c) copyright 2016-2026 Adrian H. Hilgarth (all rights reserved)
+reZet80 - Z80-based retrocomputing and retrogaming (rezet80.blogspot.com)
